@@ -12,7 +12,7 @@ app = Flask(__name__)
 weather = heWeather()
 
 
-@app.route('/weather')
+@app.route('/')
 def getWeather():
     global cid
     global weatherStatus
