@@ -94,4 +94,4 @@ def generateResponse(error, message, data):
 
 if __name__ == '__main__':
     debug = getConfigValue(configDebug)
-    app.run(host='0.0.0.0', debug=debug)
+    app.run(host='0.0.0.0', port=8011, debug=debug)
